@@ -1,0 +1,11 @@
+### Localhost GET request return a valid temperature
+GET http://localhost:8080?cep=01001000
+
+### Localhost GET request return invalid zipcode
+GET http://localhost:8080?cep=2565-000
+
+### Localhost GET request return invalid zipcode
+GET http://localhost:8080?cep=001001000
+
+### Remote server example
+GET https://cloud-run-i5qc44ni2q-uc.a.run.app/?cep=29118500
